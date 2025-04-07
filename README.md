@@ -67,23 +67,21 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=HpDggnWsG
 [![Face Recognition Android](https://img.youtube.com/vi/HpDggnWsG1c/0.jpg)](https://www.youtube.com/watch?v=HpDggnWsG1c)
 
 
-## SDK License
-
-- The code below shows how to use the license: https://github.com/kby-ai/FaceRecognition-Android/blob/5fe18bcd2b9090354e7474dd95c014f50d3dd4db/app/src/main/java/com/kbyai/facerecognition/MainActivity.kt#L33-L43
-
-- To request a license, please contact us:</br>
+## Support
+- To request a SDK, please contact us:</br>
 🧙`Email:` contact@kby-ai.com</br>
 🧙`Telegram:` [@kbyai](https://t.me/kbyai)</br>
 🧙`WhatsApp:` [+19092802609](https://wa.me/+19092802609)</br>
 🧙`Discord:` [KBY-AI](https://discord.gg/CgHtWQ3k9T)</br>
 🧙`Teams:` [KBY-AI](https://teams.live.com/l/invite/FBAYGB1-IlXkuQM3AY)</br>
 
-## About SDK
+## How To Run
 
-### 1. Set up
-1. Copy the SDK (`libfacesdk` folder) to the `root` folder in your project.
+### Set up
+- Install `npm` and `node` package and then check the version with the following commands.
+  
 
-2. Add SDK to the project in `settings.gradle`.
+3. Add SDK to the project in `settings.gradle`.
 ```bash
 include ':libfacesdk'
 ```
