@@ -76,8 +76,6 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=HpDggnWsG
 🧙`Teams:` [KBY-AI](https://teams.live.com/l/invite/FBAYGB1-IlXkuQM3AY)</br>
 
 ## How To Run
-
-### Set up
 - Install `npm` and `node` package and then check the version with the following commands.
 ```bash
 npm --version
