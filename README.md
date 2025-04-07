@@ -93,3 +93,12 @@ npm run build
 ```bash
 npm run test
 ```
+## APIs
+#### Load detection model
+```javascript
+loadDetectionModel()
+```
+#### Detect face against the image
+```javascript
+detectFace(session, canvas_id)
+```
