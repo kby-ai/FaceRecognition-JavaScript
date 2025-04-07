@@ -94,11 +94,75 @@ npm run build
 npm run test
 ```
 ## APIs
-#### Load detection model
+#### Load face detection model
 ```javascript
 loadDetectionModel()
 ```
 #### Detect face against the image
 ```javascript
 detectFace(session, canvas_id)
+```
+#### Load face landmark extraction model
+```javascript
+loadLandmarkModel()
+```
+#### Extract face landmark in the image using detection result
+```javascript
+predictLandmark(session, canvas_id, bbox)
+```
+#### Load face liveness detection model
+```javascript
+loadLivenessModel()
+```
+#### Detect face liveness in the image using detection result. (Anti-spoofing)
+```javascript
+predictLiveness(session, canvas_id, bbox)
+```
+#### Load face expression model
+```javascript
+loadExpressionModel()
+```
+#### Detect face expression
+```javascript
+predictExpression(session, canvas_id, bbox)
+```
+#### Load face pose estimation model
+```javascript
+loadPoseModel()
+```
+#### Predict facial pose
+```javascript
+predictPose(session, canvas_id, bbox, question)
+```
+#### Load eye closeness model
+```javascript
+loadEyeModel()
+```
+#### Predict eye closeness
+```javascript
+predictEye(session, canvas_id, landmark)
+```
+#### Load gender detection model
+```javascript
+loadGenderModel()
+```
+#### Predict gender using face image
+```javascript
+predictGender(session, canvas_id, landmark)
+```
+#### Load age detection model
+```javascript
+loadAgeModel()
+```
+#### Predict age using face image
+```javascript
+predictAge(session, canvas_id, landmark)
+```
+#### Load face recognition model
+```javascript
+loadFeatureModel()
+```
+#### Extract face feature vector in 512 dimension
+```javascript
+extractFeature(session, canvas_id, landmarks)
 ```
